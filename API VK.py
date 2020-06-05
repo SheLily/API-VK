@@ -41,8 +41,8 @@ class User(object):
 if __name__ == "__main__":
     a_token = ''
 
-    user1 = User(a_token, 'id89811485', 89811485)
-    user2 = User(a_token, 'dry_ice', 2694475)
+    #user1 = User(a_token, 'id89811485', 89811485)
+    #user2 = User(a_token, 'dry_ice', 2694475)
 
     mutual_friends = user1 & user2
     for _user in mutual_friends:
